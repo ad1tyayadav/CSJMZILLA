@@ -1,5 +1,5 @@
 import React from 'react';
-import AnimateWrapper from './AnimateWrapper'; // Import the animation wrapper
+import AnimateWrapper from './AnimateWrapper';
 
 const Ideation = () => {
     return (
@@ -46,7 +46,7 @@ const Ideation = () => {
             {/* Animate the SVG */}
             <AnimateWrapper>
                 <svg
-                    className="absolute top-2/3 -mt-28 z-0"
+                    className="absolute right-[-10rem] top-[45vh]"
                     width="1007"
                     height="400"
                     viewBox="0 0 1007 300"

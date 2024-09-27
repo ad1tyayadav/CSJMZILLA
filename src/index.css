@@ -25,3 +25,9 @@
 #root{
   overflow: hidden;
 }
+
+.footer-bg {
+  background-image: url('/herofooter.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}

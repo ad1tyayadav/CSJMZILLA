@@ -3,7 +3,7 @@ import AnimateWrapper from './AnimateWrapper'; // Import the reusable animation 
 
 const Design = () => {
   return (
-    <div className="flex flex-wrap w-full mt-52 relative">
+    <div className="flex flex-wrap w-[80vw] left-40 mt relative">
       <div className="xl:w-3/6 lg:w-2/5 w-auto">
         <div>
           {/* Wrap the animated text inside the AnimateWrapper */}
@@ -11,7 +11,7 @@ const Design = () => {
             <span className="text-white text-3xl relative lg:mt-24">
               Design<span className="text-orange600 text-4xl">.</span>
               <img
-                src="./images/arrow.png"
+                src="/arrow.png"
                 className="absolute top-full left-full h-5 transform -translate-y-2"
                 alt="arrow"
               />
@@ -29,7 +29,7 @@ const Design = () => {
           <AnimateWrapper>
             <div>
               <video
-                src="./images/pendrop.mp4"
+                src="/pendrop.mp4"
                 className="w-full mt-16 mx-auto"
                 autoPlay
               ></video>
@@ -42,7 +42,7 @@ const Design = () => {
         <AnimateWrapper>
           <video
             className="w-96 z-30 h-auto xl:ml-16 ml-10 mt-0 border-orange600 border-8 rounded-2xl"
-            src="./images/draw.mp4"
+            src="/draw.mp4"
             autoPlay
           ></video>
         </AnimateWrapper>
